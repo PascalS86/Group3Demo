@@ -1,0 +1,22 @@
+﻿.navbar-carhelper{
+    background-color:#f48a57;
+    border:#fff;
+}
+.navbar-carhelper .navbar-nav  > li > a{
+    color:rgba(245, 245, 245, 0.99);
+}
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+    color: #fff;
+    background-color: #f48a57;
+}
+.title{
+    color: rgba(241,111,92,1);
+    color: -moz-linear-gradient(left, rgba(241,111,92,1) 0%, rgba(231,56,39,1) 80%, rgba(240,47,23,1) 100%);
+    color: -webkit-gradient(left top, right top, color-stop(0%, rgba(241,111,92,1)), color-stop(80%, rgba(231,56,39,1)), color-stop(100%, rgba(240,47,23,1)));
+    color: -webkit-linear-gradient(left, rgba(241,111,92,1) 0%, rgba(231,56,39,1) 80%, rgba(240,47,23,1) 100%);
+    color: -o-linear-gradient(left, rgba(241,111,92,1) 0%, rgba(231,56,39,1) 80%, rgba(240,47,23,1) 100%);
+    color: -ms-linear-gradient(left, rgba(241,111,92,1) 0%, rgba(231,56,39,1) 80%, rgba(240,47,23,1) 100%);
+    color: linear-gradient(to right, rgba(241,111,92,1) 0%, rgba(231,56,39,1) 80%, rgba(240,47,23,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f16f5c', endColorstr='#f02f17', GradientType=1 );
+    padding:20px;
+}
