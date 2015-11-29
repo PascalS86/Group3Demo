@@ -11,7 +11,7 @@ angular.module('Carhelper.App', [
   'SignalR',
   'ui.bootstrap'
 ]).constant('ngAuthSettings', {
-    apiServiceBaseUri: "http://localhost:7918/",
+    apiServiceBaseUri: "http://group3demo.apphb.com/",
     clientId: 'ngAuthApp'
 })
   .config(function ($stateProvider, $urlRouterProvider, $locationProvider, $httpProvider) {
