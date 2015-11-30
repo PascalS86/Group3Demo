@@ -4,7 +4,7 @@ angular.module('Carhelper.App')
   .config(function ($stateProvider) {
       $stateProvider
         .state('tires', {
-            url: '/',
+            url: '/tires',
             templateUrl: 'app/tires/tires.html',
             controller: 'TiresCtrl'
         });
