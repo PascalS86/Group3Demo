@@ -1,5 +1,5 @@
 ﻿'use strict';
-angular.module('Carhelper.App').controller('TiresCtrl', ['$http', '$scope', '$rootScope', '$location', 'authService', 'ngAuthSettings', 'Hub', function ($http, $scope, $rootScope, $location, authService, ngAuthSettings, Hub) {
+angular.module('Carhelper.App').controller('Tires2Ctrl', ['$http', '$scope', '$rootScope', '$location', 'authService', 'ngAuthSettings', 'Hub', function ($http, $scope, $rootScope, $location, authService, ngAuthSettings, Hub) {
 
     $scope.logOut = function () {
         authService.logOut();

@@ -183,6 +183,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="app\navbar\navbar.css" />
+    <Content Include="app\tires2\tires2.controller.js" />
+    <Content Include="app\tires2\tires2.css" />
+    <Content Include="app\tires2\tires2.html" />
+    <Content Include="app\tires2\tires2.js" />
     <Content Include="app\tires\tires.controller.js" />
     <Content Include="app\tires\tires.css" />
     <Content Include="app\tires\tires.html" />
