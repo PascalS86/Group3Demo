@@ -1,0 +1,92 @@
+﻿<div ng-include="'app/navbar/navbar.html'"></div>
+<div class="container">
+    <div class="row">
+        <div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2 class="text-center title">Brauchst du einen Radwechsel oder neue Reifen? Dann bist du hier richtig!</h2>
+                        <hr />
+                    </div>
+                    <div class="panel">
+                        <div class="panel-heading">
+                            <h4 class="title">In 4 einfachen Schritten zu deinen Reifen</h4>
+                            <hr />
+                        </div>
+                        <div class="panel-body">
+                            <div class="row">
+                                <div class="stepwizard">
+                                    <div class="stepwizard-row">
+                                        <div class="stepwizard-step">
+                                            <a class="btn btn-default btn-circle" href="/tires">1</a>
+                                            <p>Wähle dein Produkt</p>
+                                        </div>
+                                        <div class="stepwizard-step">
+                                            <a href="/tires2" class="btn btn-default btn-circle">2</a>
+                                            <p>Fahrzeug-Identifikation</p>
+                                        </div>
+                                        <div class="stepwizard-step">
+                                            <a href="/tires3" class="btn btn-default btn-circle">3</a>
+                                            <p>Partnerwahl</p>
+                                        </div>
+                                        <div class="stepwizard-step">
+                                            <a href="/tires4" class="btn btn-carhelper btn-circle">4</a>
+                                            <p>Kontaktinformation</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr />
+                            <div class="row">
+                                <form role="form">
+                                    <div class="row setup-content" id="step-1">
+                                        <div class="col-xs-12">
+                                            <div class="col-md-12">
+                                                <h3 class="col-md-offset-3 col-md-6 " style="padding-left:0px;">Kontaktinformation</h3>
+                                                <div class="col-md-offset-3 col-md-6 ">
+                                                    <div class="row">
+                                                        <h4>Wie willst du kontaktiert werden?</h4>
+                                                        <select class="btn-default form-control" style="margin-bottom:3px;max-width:560px;" bootselectpicker>
+                                                            <option>Frau</option>
+                                                            <option>Herr</option>
+                                                        </select>
+                                                        <input type="text" class="form-control" style="margin-bottom:3px;max-width:560px;" placeholder="Vorname" required>
+                                                        <input type="text" class="form-control" style="margin-bottom:3px;max-width:560px;" placeholder="Name" required>
+                                                        <input type="text" class="form-control" style="margin-bottom:3px;max-width:560px;" placeholder="E-Mail" required>
+                                                        <textarea rows="10" class="form-control" style="margin-bottom:3px; max-width:560px;width:100%;" placeholder="Verbesserungswünsche:" />
+                                                        <div class="input-group" style="max-width:560px;">
+                                                            <span class="input-group-addon" style="max-width:560px;">
+                                                                <input type="checkbox" class="form-control" style="width:31px; text-align:left;" />
+                                                            </span>
+                                                            <span class="form-control" >AGB's akzeptiert</span>
+                                                        </div>
+
+                                                    </div>
+                                                    <hr class="col-md-12" style="margin-top:2px;" />
+                                                </div>
+                                                <hr class="col-md-12" />
+                                                <div class="form-group col-md-12">
+                                                    <a class="btn btn-carhelper nextBtn btn-lg pull-right" ng-click="send()">Anfrage abschicken</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <p class="text-muted">Created by Pascal S.</p>
+            </div>
+        </div>
+    </div>
+</div>

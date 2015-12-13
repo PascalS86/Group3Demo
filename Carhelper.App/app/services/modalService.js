@@ -14,7 +14,7 @@ angular.module('Carhelper.App').factory('modalService', ['$modal', '$templateCac
            '        <div ng-bind-html="renderHtml()"></div>' +
            '    </div>' +
            '    <div class="modal-footer">' +
-           '        <button class="btn btn-info" data-ng-click="ok()">{{okText}}</button>' +
+           '        <button class="btn btn-carhelper" data-ng-click="ok()">{{okText}}</button>' +
            '    </div>' +
            '</div>');
 

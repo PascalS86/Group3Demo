@@ -182,18 +182,33 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="app\directives\uiDirectives.js" />
     <Content Include="app\navbar\navbar.css" />
     <Content Include="app\tires2\tires2.controller.js" />
     <Content Include="app\tires2\tires2.css" />
     <Content Include="app\tires2\tires2.html" />
     <Content Include="app\tires2\tires2.js" />
+    <Content Include="app\tires3\tires3.controller.js" />
+    <Content Include="app\tires3\tires3.css" />
+    <Content Include="app\tires3\tires3.html" />
+    <Content Include="app\tires3\tires3.js" />
+    <Content Include="app\tires4\tires4.controller.js" />
+    <Content Include="app\tires4\tires4.css" />
+    <Content Include="app\tires4\tires4.html" />
+    <Content Include="app\tires4\tires4.js" />
     <Content Include="app\tires\tires.controller.js" />
     <Content Include="app\tires\tires.css" />
     <Content Include="app\tires\tires.html" />
     <Content Include="app\tires\tires.js" />
+    <Content Include="Content\images\defaultWerkstatt.jpg" />
+    <Content Include="Content\images\hansMeier.png" />
+    <Content Include="Content\images\heiri.jpg" />
+    <Content Include="Content\images\kennys.jpg" />
     <Content Include="Content\images\logo_carhelper.png" />
+    <Content Include="Content\images\muggli.jpg" />
     <Content Include="Content\images\repair.png" />
     <Content Include="Content\images\service.png" />
+    <Content Include="Content\images\speed.jpg" />
     <Content Include="Content\images\summer_winter_tires.jpg" />
     <Content Include="Content\images\tireAndFullTire.png" />
     <Content Include="Content\images\tires.png" />
