@@ -200,6 +200,7 @@
     <Content Include="app\tires\tires.css" />
     <Content Include="app\tires\tires.html" />
     <Content Include="app\tires\tires.js" />
+    <Content Include="Content\images\Combined.png" />
     <Content Include="Content\images\defaultWerkstatt.jpg" />
     <Content Include="Content\images\hansMeier.png" />
     <Content Include="Content\images\heiri.jpg" />
@@ -208,6 +209,7 @@
     <Content Include="Content\images\muggli.jpg" />
     <Content Include="Content\images\repair.png" />
     <Content Include="Content\images\service.png" />
+    <Content Include="Content\images\slogan.png" />
     <Content Include="Content\images\speed.jpg" />
     <Content Include="Content\images\summer_winter_tires.jpg" />
     <Content Include="Content\images\tireAndFullTire.png" />
